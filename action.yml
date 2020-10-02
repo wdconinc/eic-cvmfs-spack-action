@@ -1,0 +1,6 @@
+name: 'EIC CernVM-FS Spack'
+description: 'Load the EIC Spack software stack on /cvmfs/eic.opensciencegrid.org'
+runs:
+  steps: 
+    - run: ${{ github.action_path }}/setup.sh
+      shell: bash
