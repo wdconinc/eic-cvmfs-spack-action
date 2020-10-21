@@ -1,5 +1,5 @@
-name: 'EIC CernVM-FS Spack'
-description: 'Load the EIC Spack software stack on /cvmfs/eic.opensciencegrid.org'
+name: 'CernVM-FS'
+description: 'Load the CernVM-FS filesystem at /cvmfs'
 branding:
   icon: 'database'
 inputs:
